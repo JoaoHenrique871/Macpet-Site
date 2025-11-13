@@ -4,7 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import path from 'path'
 
 // https://vite.dev/config/
-export default defineConfig({  base: '/Macpet-Site/',
+export default defineConfig({
   base: '/Macpet-Site/',
   plugins: [react(),tailwindcss()],
   resolve: {
